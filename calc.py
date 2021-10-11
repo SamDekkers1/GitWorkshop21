@@ -1,6 +1,7 @@
 #Example file to use in git workshop
 #Perform simple arithmetic encoded in an input string
 #Example: '1 + 2' -> 3 or '1 - 2' -> -1
+#Comment added here
 def compute(expression):
     num0,operator,num1 = expression.split(' ')
     num0,num1 = int(num0), int(num1)
