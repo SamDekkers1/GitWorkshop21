@@ -1,4 +1,6 @@
 #Example file to use in git workshop
+#Perform simple arithmetic encoded in an input string
+#Example: '1 + 2' -> 3 or '1 - 2' -> -1
 def compute(expression):
     values = expression.split(' ')
     num0 = int(values[0])
